@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf7b3caa-b695-4c74-9546-d347fa604506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movieCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movieList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tmdb-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tmdb-api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/movieDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movieDetailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/moviePage.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594929847555</updated>
-      <workItem from="1594929849142" duration="649000" />
+      <workItem from="1594929849142" duration="1249000" />
     </task>
     <servers />
   </component>
