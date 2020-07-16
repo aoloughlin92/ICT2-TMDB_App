@@ -13,7 +13,13 @@ const reducer = (state, action) => {
     case "load-movies":
       return { movies: [...action.payload.movies], favorites: [] };
     case "add-review":
-      // Completed in next section
+      return {
+        movies: [...state.movies],
+        favorites: [
+          ...state.favorites.filter((m) => m.id !== action.payload.movie.id),
+          { ...action.payload.movie, review: action.payload.review },
+        ],
+      };
       break;
     default:
       return state;
@@ -28,9 +34,9 @@ const MoviesContextProvider = (props) => {
     dispatch({ type: "add-favorite", payload: { movie: state.movies[index] } });
   };
 
-  const addReview = () => {
-      // Completed in next section
-  };
+  const addReview = (movie, review) => {
+    dispatch({ type: "add-review", payload: { movie, review } });
+  }; 
 
   useEffect(() => {
     getMovies().then((movies) => {
