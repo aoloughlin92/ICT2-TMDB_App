@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7b3caa-b695-4c74-9546-d347fa604506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/tmdb-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tmdb-api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/movieDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/movieDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/moviePage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/siteHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/siteHeader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/genresContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/genresContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/moviesContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/moviesContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/stories/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +27,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +51,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594929847555</updated>
-      <workItem from="1594929849142" duration="1249000" />
+      <workItem from="1594929849142" duration="1569000" />
+      <workItem from="1598281254084" duration="1797000" />
+      <workItem from="1598300568336" duration="395000" />
     </task>
     <servers />
   </component>
@@ -58,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

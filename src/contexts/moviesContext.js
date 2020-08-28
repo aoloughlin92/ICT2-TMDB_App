@@ -11,7 +11,7 @@ const reducer = (state, action) => {
         favorites: [...state.favorites, action.payload.movie],
       };
     case "load-movies":
-      return { movies: [...action.payload.movies], favorites: [] };
+      return { movies: [...action.payload.movies], favorites: []};
     case "add-review":
       return {
         movies: [...state.movies],
@@ -27,7 +27,7 @@ const reducer = (state, action) => {
 };
 
 const MoviesContextProvider = (props) => {
-  const [state, dispatch] = useReducer(reducer, { movies: [], favorites: [] });
+  const [state, dispatch] = useReducer(reducer, { movies: [], favorites: []});
 
   const addToFavorites = (movieId) => {
     const index = state.movies.map((m) => m.id).indexOf(movieId);
