@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\actorCard",
+    "\\src\\components\\actorMovieCard",
+    "\\src\\components\\buttons",
+    "\\src\\components\\similarMovies",
+    "\\src\\components\\siteHeader",
+    "\\src\\pages",
+    "\\stories"
+  ],
+  "SelectedNode": "\\src\\hooks\\useActor.js",
+  "PreviewInSolutionExplorer": false
+}
